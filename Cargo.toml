@@ -1,0 +1,10 @@
+[package]
+name = "blog_os"
+version = "0.1.0"
+authors = ["tommy <kazu9su@gmail.com>"]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
